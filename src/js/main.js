@@ -2,10 +2,10 @@ function lpsTabs(arr)
 {
     // lpsTabs({
     //     buttonShowAllTabs: false,                                // есть ли кнопка при нажатии на которую будут показаны все раздела табов, то есть items табов, по умолчнию false
-    //     tabsButtonsParentElementClass: 'tab__titles',            // класс-обертка для кнопок табов, на которые будем нажимать
-    //     tabsItemsClass: 'tab__items',                            // класс для каждого раздела табов, группа елементов обединенных для показа одновременно при нажатии кнопки табов
-    //     tabsButtonActiveClass: 'tab__title_active',              // класс активности для кнопки табов
-    //     tabsItemActiveClass: 'tab__items_active',                // класс активности для раздела табов (группы item`ов)
+    //     tabsButtonsParentElementClass: 'tab__titles',            // класс-обертка для кнопок табов, на которые будем нажимать ОБЯЗАТЕЛЬНО ДЛЯ ЗАПОНЕНИЯ
+    //     tabsItemsClass: 'tab__items',                            // класс для каждого раздела табов, группа елементов обединенных для показа одновременно при нажатии кнопки табов ОБЯЗАТЕЛЬНО ДЛЯ ЗАПОНЕНИЯ
+    //     tabsButtonActiveClass: 'tab__title_active',              // класс активности для кнопки табов ОБЯЗАТЕЛЬНО ДЛЯ ЗАПОНЕНИЯ
+    //     tabsItemActiveClass: 'tab__items_active',                // класс активности для раздела табов (группы item`ов) ОБЯЗАТЕЛЬНО ДЛЯ ЗАПОНЕНИЯ
     // });
 
     if(typeof arr.buttonShowAllTabs == 'undefined') {               // если разработчик не указал показывать кнопку для показа всех табов примем, что ее показывать не надо
